@@ -21,7 +21,8 @@ Ví dụ dòng lệnh
 ```
 # Thẻ cấp 1
 ## Thẻ cấp 2 
-### thẻ cấp 3```
+### thẻ cấp 3
+```
 
 Kết quả là:
 # Thẻ cấp 1
@@ -33,8 +34,10 @@ Nội dung không nằm trong thẻ nào, Markdown mặc định sẽ nằm tron
 - Sử dụng ký tự `_` hoặc `*` để in nghiêng
 
 Ví dụ: 
-```_Chữ in nghiêng_
-*Chữ in nghiêng*```
+```
+_Chữ in nghiêng_
+*Chữ in nghiêng*
+```
 
 Kết quả là:
 
@@ -57,7 +60,8 @@ Ví dụ:
 ```
 	- Danh sách 1
 	- Danh sách 2
-	- Danh sách 3```
+	- Danh sách 3
+```
 	
 Kết quả là:
 	- Danh sách 1
@@ -66,9 +70,11 @@ Kết quả là:
 - Đánh dấu 1 danh sách có thứ tự ta sử dụng các số
 
 Ví dụ: 
-```1. Danh sách 1
+```
+1. Danh sách 1
 2. Danh sách 2
-3. Danh sách 3```
+3. Danh sách 3
+```
 Kết quả là:
 1. Danh sách 1
 2. Danh sách 2
@@ -86,15 +92,18 @@ Kết quả là:
 Làm nổi bật đoạn cần bo
 
 Ví dụ:
-```sh
+
 <a name="taobang"></a>
 ### 5. Tạo bảng
 ```
 |Thời khóa biểu|Thứ 2| Thứ 3| Thứ 4|
 |--------------|-----|------|------|
 |Kíp 1| abc| abc| abc|
-|Kíp 2| xyz| xyz| xyz|```
+|Kíp 2| xyz| xyz| xyz|
+```
+
 Kết quả là:
+
 |Thời khóa biểu|Thứ 2| Thứ 3| Thứ 4|
 |--------------|-----|------|------|
 |Kíp 1| abc| abc| abc|
