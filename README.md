@@ -48,6 +48,7 @@ _Chữ in nghiêng_
 Kết quả là:
 
 _Chữ in nghiêng_
+
 *Chữ in nghiêng*
 - Sử dụng ký tự `__` hoặc `**` để in đậm
 
@@ -68,10 +69,12 @@ Ngoài ra chữ có thể gạch ngang bằng 2 dấu `~~`
 ```
 ~~gạch ngang~~
 ```
-~~ gạch ngang~~
+~~gạch ngang~~
+
 <a name="kieudanhsach"></a>
 ### 3. Kiểu danh sách
 - Để đánh dấu 1 danh sách không có thứ tự ta sử dụng các ký tự `-`, `*`, `+` trước mỗi dòng.
+
 Ví dụ: 
 ```
 	- Danh sách 1
@@ -80,8 +83,11 @@ Ví dụ:
 ```
 	
 Kết quả là:
+
 	- Danh sách 1
+	
 	- Danh sách 2
+	
 	- Danh sách 3
 - Đánh dấu 1 danh sách có thứ tự ta sử dụng các số
 
@@ -104,6 +110,7 @@ Ví dụ:
 Phải có danh gì với núi sông.
 ```
 >Làm trai đứng ở trong trời đất
+ 
 Phải có danh gì với núi sông.
 
 
@@ -124,9 +131,9 @@ Ví dụ:
 Để phân biết bạn chỉ cần thêm dấu `\` trước các ký hiệu đó.
 Ví dụ :
 ```
-\**text**
+\*text*
 ```
-Kết quả sẽ hiện ra là \**text** chứ không phải **in nghiêng**
+Kết quả sẽ hiện ra là \*text* chứ không phải *in đậm*
 <a name="taobang"></a>
 ### 5. Tạo bảng
 Các cột trong bảng được ngăn cách với nhau bằng dấu dạch đứng `|` 
@@ -159,6 +166,7 @@ https://github.com
 [Github](https://github.com)
 ```
 [Github](https://github.com)
+
 Ngoài ra bạn có thể thêm tiêu đề link bằng cách thêm "title" vào cuối phần `()`
 ```
 [Github](https://github.com "Github")
@@ -174,15 +182,7 @@ Ngoài ra bạn có thể thêm tiêu đề link bằng cách thêm "title" vào
 Kết quả:
 ![Hoahong](https://shophoacantho.com/uploads/goc-thu-gian/2015_01/y-nghia-hoa-hong.jpg)
 
-```
-<img src="link_anh">
-```
-Ví dụ:
-```
-<img src="https://imgur.com/jShh2oP">
-```
-<img src="https://imgur.com/jShh2oP">
-<img src="https://imgur.com/a/0Thrbfe">
+
 
 ### Emoji 
 ```
