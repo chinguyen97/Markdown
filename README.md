@@ -8,9 +8,13 @@
 
 [4. Trích dẫn, bo chữ](#trichdan,bochu)
 
-[5. Tạo bảng](#taobang)
+[5. Escape markdown](#escapemarkdown)
 
-[6. Chèn link, chèn ảnh](#chenlink,chenanh)
+[6. Tạo bảng](#taobang)
+
+[7. Chèn link](#chenlink)
+
+[8. Chèn ảnh, emoji](#chenanh,emoji)
 *********************************
 ## Mở đầu
 Markdown là ngôn ngữ đánh dấu văn bản được tạo bởi John Gruber,
@@ -65,10 +69,12 @@ Kết quả là:
 ***in đậm, in nghiêng***
 ```
 ***in đậm, in nghiêng***
-Ngoài ra chữ có thể gạch ngang bằng 2 dấu `~~`
+
+- Ngoài ra chữ có thể gạch ngang bằng 2 dấu `~~`
 ```
 ~~gạch ngang~~
 ```
+Kết quả là: 
 ~~gạch ngang~~
 
 <a name="kieudanhsach"></a>
@@ -111,7 +117,7 @@ Phải có danh gì với núi sông.
 ```
 >Làm trai đứng ở trong trời đất
  
-Phải có danh gì với núi sông.
+>Phải có danh gì với núi sông.
 
 
 Để bo 1 đoạn text sử dụng 
@@ -122,11 +128,8 @@ Ví dụ:
 Kết quả là:
 `Bo đoạn text`
 
-Làm nổi bật đoạn cần bo
-
-Ví dụ:
-
-### 4. Escape markdown 
+<a name="escapemarkdown"></a>
+### 5. Escape markdown 
 Đôi khi viết bài bạn gặp phải các ký tự trùng với cú pháp của markdown.
 Để phân biết bạn chỉ cần thêm dấu `\` trước các ký hiệu đó.
 Ví dụ :
@@ -135,7 +138,7 @@ Ví dụ :
 ```
 Kết quả sẽ hiện ra là \*text* chứ không phải *in đậm*
 <a name="taobang"></a>
-### 5. Tạo bảng
+### 6. Tạo bảng
 Các cột trong bảng được ngăn cách với nhau bằng dấu dạch đứng `|` 
 và header được tách với content bằng dấu gạch ngang `-`
 
@@ -154,7 +157,7 @@ Kết quả là:
 |Kíp 2| x| x| z|
 
 <a name ="chenlink"></a>
-### 6. Chèn link
+### 7. Chèn link
 Để chèn link chỉ cần add link đó vào file .md
 ```
 https://github.com
@@ -173,8 +176,8 @@ Ngoài ra bạn có thể thêm tiêu đề link bằng cách thêm "title" vào
 ```
 [Github](https://github.com "Github")
 
-<a name="chenanh">/</a>
-### 7. Chèn ảnh
+<a name="chenanh,emoji">/</a>
+### 8. Chèn ảnh, Emoji
 Để chèn img sử dụng cú pháp sau:
 ```
 ![alt](link_anh)
