@@ -178,16 +178,16 @@ Ngoài ra bạn có thể thêm tiêu đề link bằng cách thêm "title" vào
 Để chèn img sử dụng cú pháp sau:
 ```
 ![alt](link_anh)
+```
 
 Kết quả:
 ![Hoahong](https://shophoacantho.com/uploads/goc-thu-gian/2015_01/y-nghia-hoa-hong.jpg)
-
-
 
 ### Emoji 
 ```
 :smile:
 ```
+
 :smile:
 
 ### Video 
