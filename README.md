@@ -111,3 +111,28 @@ Kết quả là:
 
 <a name "chenlink,chenanh"></a>
 ### 6. Chèn link, chèn ảnh
+Để chèn link chỉ cần add link đó vào file .md
+```
+https://github.com
+```
+https://github.com
+
+Để rút ngắn link 
+```
+[Github](https://github.com)
+```
+[Github](https://github.com)
+
+Để chèn img sử dụng cú pháp sau
+
+```
+<img src="link_anh">
+```
+Ví dụ:
+```
+<img src="https://imgur.com/jShh2oP">
+```
+Kết quả:
+<img src="https://imgur.com/jShh2oP">
+
+
