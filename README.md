@@ -134,5 +134,6 @@ Ví dụ:
 ```
 Kết quả:
 <img src="https://imgur.com/jShh2oP">
+<img src="https://imgur.com/a/0Thrbfe">
 
 
