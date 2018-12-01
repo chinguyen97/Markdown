@@ -133,6 +133,7 @@ Ví dụ:
 <img src="https://imgur.com/jShh2oP">
 ```
 Kết quả:
+![Hoahong](https://shophoacantho.com/uploads/goc-thu-gian/2015_01/y-nghia-hoa-hong.jpg)
 <img src="https://imgur.com/jShh2oP">
 <img src="https://imgur.com/a/0Thrbfe">
 
