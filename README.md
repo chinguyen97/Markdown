@@ -12,7 +12,13 @@
 
 [6. Chèn link, chèn ảnh](#chenlink,chenanh)
 *********************************
+## Mở đầu
+Markdown là ngôn ngữ đánh dấu văn bản được tạo bởi John Gruber,
+cú pháp khá đơn giản và dễ hiểu, dễ nhớ.
+Bạn cần tạo một file .md. Có thể sử dụng notepate, notepad++, vi,...
+. Bài viết dưới đây sẽ hướng dẫn để bạn có thể hiểu và sử dụng được ngay những cú pháp đó.
 
+## Nội dung
 <a name="thetieude"></a>
 ### 1. Thẻ tiêu đề
 Markdown sử dụng các ký tự `#` để đánh dấu các tiêu đề. Mức độ các tiêu đề sẽ giảm dần từ 1 đến 6 tương ứng vứi từ 1 đến 6 ký tự `#` liên tiếp 
@@ -53,6 +59,16 @@ Kết quả là:
 
 **In đậm**
 
+- Sử dụng 3 ký tự `***` để vừa ***in dậm vừa in nghiêng***
+```
+***in đậm, in nghiêng***
+```
+***in đậm, in nghiêng***
+Ngoài ra chữ có thể gạch ngang bằng 2 dấu `~~`
+```
+~~gạch ngang~~
+```
+~~ gạch ngang~~
 <a name="kieudanhsach"></a>
 ### 3. Kiểu danh sách
 - Để đánh dấu 1 danh sách không có thứ tự ta sử dụng các ký tự `-`, `*`, `+` trước mỗi dòng.
@@ -81,6 +97,16 @@ Kết quả là:
 3. Danh sách 3
 <a name="trichdan,bochu"></a>
 ### 4. Trích dẫn, bo chữ
+Cách viết một trích dẫn bạn sử dụng ký tự `>`
+Ví dụ: 
+```
+>Làm trai đứng ở trong trời đất
+Phải có danh gì với núi sông.
+```
+>Làm trai đứng ở trong trời đất
+Phải có danh gì với núi sông.
+
+
 Để bo 1 đoạn text sử dụng 
 Ví dụ: 
 ```
@@ -93,24 +119,35 @@ Làm nổi bật đoạn cần bo
 
 Ví dụ:
 
+### 4. Escape markdown 
+Đôi khi viết bài bạn gặp phải các ký tự trùng với cú pháp của markdown.
+Để phân biết bạn chỉ cần thêm dấu `\` trước các ký hiệu đó.
+Ví dụ :
+```
+\**text**
+```
+Kết quả sẽ hiện ra là \**text** chứ không phải **in nghiêng**
 <a name="taobang"></a>
 ### 5. Tạo bảng
+Các cột trong bảng được ngăn cách với nhau bằng dấu dạch đứng `|` 
+và header được tách với content bằng dấu gạch ngang `-`
+
 ```
 |Thời khóa biểu|Thứ 2| Thứ 3| Thứ 4|
-|--------------|-----|------|------|
-|Kíp 1| abc| abc| abc|
-|Kíp 2| xyz| xyz| xyz|
+|--------------|:-----:|:------|------:|
+|Kíp 1| ab| abc| abc|
+|Kíp 2| x| x| z|
 ```
 
 Kết quả là:
 
 |Thời khóa biểu|Thứ 2| Thứ 3| Thứ 4|
-|--------------|-----|------|------|
-|Kíp 1| abc| abc| abc|
-|Kíp 2| xyz| xyz| xyz|
+|--------------|:-----:|:------|------:|
+|Kíp 1| ab| abc| abc|
+|Kíp 2| x| x| z|
 
-<a name "chenlink,chenanh"></a>
-### 6. Chèn link, chèn ảnh
+<a name ="chenlink"></a>
+### 6. Chèn link
 Để chèn link chỉ cần add link đó vào file .md
 ```
 https://github.com
@@ -122,8 +159,20 @@ https://github.com
 [Github](https://github.com)
 ```
 [Github](https://github.com)
+Ngoài ra bạn có thể thêm tiêu đề link bằng cách thêm "title" vào cuối phần `()`
+```
+[Github](https://github.com "Github")
+```
+[Github](https://github.com "Github")
 
-Để chèn img sử dụng cú pháp sau
+<a name="chenanh">/</a>
+### 7. Chèn ảnh
+Để chèn img sử dụng cú pháp sau:
+```
+![alt](link_anh)
+
+Kết quả:
+![Hoahong](https://shophoacantho.com/uploads/goc-thu-gian/2015_01/y-nghia-hoa-hong.jpg)
 
 ```
 <img src="link_anh">
@@ -132,9 +181,16 @@ Ví dụ:
 ```
 <img src="https://imgur.com/jShh2oP">
 ```
-Kết quả:
-![Hoahong](https://shophoacantho.com/uploads/goc-thu-gian/2015_01/y-nghia-hoa-hong.jpg)
 <img src="https://imgur.com/jShh2oP">
 <img src="https://imgur.com/a/0Thrbfe">
 
+### Emoji 
+```
+:smile:
+```
+:smile:
+
+### Video 
+
+{@youtube: https://www.youtube.com/watch?v=sclBjiPuStU&list=RDsclBjiPuStU&start_radio=1}
 
